@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+body{
+ font-family: 'Lato', sans-serif;;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin: 1rem;
+    color: rgba(128, 0, 128, 0.81);
+    
+}
+nav ul li a:hover{
+    color: black;
+   
+   
+}
+
+
+.navbar a{
+    text-decoration: none;
+    padding: 4rem;
+   
+}
+
+nav img{
+    height: 2rem;
+    width: 4rem;
+    margin: 1rem;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    
+}
+.one{
+    display: flex;
+  justify-content: end;
+}
+.one img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+    overflow: hidden;
+    margin-top: -12rem;
+}
+.two{
+    height: 0rem;
+    width: 19rem;
+    margin-left: 5.5rem;
+    margin-top: 14rem;
+  
+}
+.two h2{
+    margin: 1rem;
+}
+.two p{
+    margin-bottom: 1.2rem;
+}
+.two h2:hover{
+    color: rgba(128, 0, 128, 0.81);
+}
+.two button{
+    padding: 1.06rem;
+    margin: 0.4rem;
+    background-color: rgba(128, 0, 128, 0.81);
+    border: 2rem;
+    border-radius: 14rem;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+}
+.two button:hover{
+    background-color: rgba(128, 0, 128, 0.81);
+    cursor: pointer;
+}
+button{
+    padding: 2rem;
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgba(128, 0, 128, 0.81);
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.inline a {
+    padding: 1rem;
+  }
+.inline img{
+height: 3rem;
+  width: 3rem;
+  padding: 0.17rem;
+  
+}
+.inline img:hover{
+    cursor: pointer;
+}
+.first{
+    overflow: hidden;
+ left: 3rem;
+}
+
+.skill{
+    display: flex;
+     justify-content: center;
+     margin-top: 4rem;
+     color: rgba(128, 0, 128, 0.81);
+    
+       
+   }
+   .same{
+       margin-top: 60px;
+       text-align: end;
+       margin-left: 15px;
+   }
+   .skill2{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .html{
+        border: 2px solid gray;
+        width:460px;
+        height: 25px;
+        border-radius: 5px;
+   }
+   .css{
+       border: 2px solid gray;
+        width:460px;
+        height: 25px; 
+        border-radius: 5px;
+   }
+   .js{
+       border: 2px solid gray;
+       width:460px;
+       height: 25px;
+       border-radius: 5px;
+   }
+   .React{
+       border: 2px solid gray;
+       width:460px;
+       height: 25px;
+       border-radius: 5px;
+   }
+   .cpp{
+       border: 2px solid gray;
+       width:460px;
+       height: 25px;
+       border-radius: 5px;
+   }
+   .jquery{
+       border: 2px solid gray;
+       width:460px;
+       height: 25px;
+       border-radius: 5px;
+   }
+   .git{
+       border: 2px solid gray;
+       width:460px;
+       height: 25px;
+       border-radius: 5px;
+   }
+   .htm{
+       width:345px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .cs{
+       width:299px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .JavaS{
+       width:322px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .rect{
+       width:276px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .c{
+       width:368px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .JQ{
+       width:322px;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .gt{
+       width: 391px;;
+       background-color: rgba(128, 0, 128, 0.81);
+       height: 25px;
+   }
+   .projects{
+    display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+   }
+   
+   .common img{
+    height: 13rem;
+    width: 13rem;
+    
+   }
+   .text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .common img:hover{
+    height: 14rem;
+    width: 14rem;
+    cursor: pointer;
+    font-weight: bolder;
+   }
+   .text:hover{
+    cursor: pointer;
+    font-weight: bolder;
+   }
+footer p{
+    text-align: center;
+    margin: 1rem;
+}
+
